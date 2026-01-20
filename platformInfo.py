@@ -14,7 +14,7 @@ with open('about.txt', 'w') as a:
         aw(get_distro(), 'distro')
     elif platform.system() == 'Windows':
         aw(platform.win32_ver(), 'windows version')
-        aw(platform.win32_is_iot(), 'is interprice version')
+        aw(platform.win32_is_iot(), 'is iot version')
     
     aw(platform.release(), 'release version')
     aw(platform.node(), 'username')
